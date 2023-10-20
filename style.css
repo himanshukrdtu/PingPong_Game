@@ -1,0 +1,111 @@
+body{
+    width:100vw;
+    height:100vh;
+  
+  background-color: rgb(2, 2, 116);
+  background-image: url('wepik-export-20231020094848oci8.jpeg');
+    /* background-repeat: no-repeat; */
+    background-size:auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ 
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(224, 207, 29);
+    position: fixed;
+    top: 20px;
+    left: 50.0%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 42%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#v1-line{
+    height:100vh;
+    width:.01px;
+    border:2px white dashed;
+     left:0px;
+    position:fixed;
+    z-index: -1;
+
+}
+#v2-line{
+    height:100vh;
+    width:.01px;
+    border:2px white dashed;
+     right:0px;
+    position:fixed;
+    z-index: -1;
+
+}
+#rod1-line{
+    height:.1px;
+    width: 100vw;
+    border:2px white dashed;
+    margin-top: 19px;
+    position:fixed;
+    z-index: -1;
+
+}
+#mid{
+    height:.01px;
+    width: 100vw;
+    border:1px white dashed;
+    top: 50vh;
+    position:fixed;
+    z-index: -1;
+
+}
+#rod2-line{
+    height:.1px;
+    width: 100vw;
+    border:2px white dashed;
+    bottom: 19px;
+    position:fixed;
+    z-index: -1;
+
+}
+
+#rod1 {
+    background-color:rgb(100, 109, 47) ;
+    top: 0px;    
+}
+
+#rod2 {
+    background-color:rgb(100, 109, 47);
+    bottom: 0px;
+}
+
+#score{
+    height: 20px;
+    width: 150px;
+    padding: 4px;
+    background-color: antiquewhite;
+    right: 25px;
+    top: 25px;
+    position: fixed;
+
+}
+#maxscore{
+    height: 20px;
+    width: 150px;
+    padding: 4px;
+    background-color: antiquewhite;
+    left: 25px;
+    top: 25px;
+    position: fixed;
+
+}
